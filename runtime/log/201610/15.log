@@ -1,0 +1,2083 @@
+[ 2016-10-15T13:22:06+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.038393s][吞吐率：26.05req/s] [内存消耗：1,060.35kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 13 - 23
+
+  - Parameters [1] {
+    Parameter #0 [ <optional> $name = '张三' ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-15T13:22:18+08:00 ] 127.0.0.1 127.0.0.1 GET /index/idnex/testmodel
+[ log ] www.tp5.com/index/idnex/testmodel [运行时间：0.022392s][吞吐率：44.66req/s] [内存消耗：882.96kb] [文件加载：27]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'idnex',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-15T13:22:27+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.017339s][吞吐率：57.67req/s] [内存消耗：1,064.50kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 9 - 11
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-15T13:23:10+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.041515s][吞吐率：24.09req/s] [内存消耗：1,064.60kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 10 - 12
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-15T13:24:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.068696s][吞吐率：14.56req/s] [内存消耗：1,896.96kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 10 - 14
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009964s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.005658s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000700s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T13:26:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.070642s][吞吐率：14.16req/s] [内存消耗：1,910.08kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 11 - 16
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016069s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.006608s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_level` [ RunTime:0.004957s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_level` WHERE  `level_id` = 1 LIMIT 1    [ RunTime:0.000344s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T13:28:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.039418s][吞吐率：25.37req/s] [内存消耗：1,149.45kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 11 - 17
+}
+
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Test' not found[D:\wamp\www\TP5.0\application\index\controller\Index.php:13]
+
+---------------------------------------------------------------
+[ 2016-10-15T13:28:44+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.070911s][吞吐率：14.10req/s] [内存消耗：1,827.59kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 18
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009928s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tpshop1.tp_test' doesn't exist[D:\wamp\www\TP5.0\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2016-10-15T13:30:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.067530s][吞吐率：14.81req/s] [内存消耗：1,886.64kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 18
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002072s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_admin` [ RunTime:0.006125s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_admin` WHERE  `admin_id` = 1 LIMIT 1    [ RunTime:0.000775s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T13:31:08+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.050453s][吞吐率：19.82req/s] [内存消耗：1,882.68kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 18
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000931s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_account_log` [ RunTime:0.006087s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_account_log` WHERE  `log_id` = 1 LIMIT 1    [ RunTime:0.002555s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T14:03:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.073514s][吞吐率：13.60req/s] [内存消耗：1,884.63kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 22
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011365s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007492s ]
+[ sql ] [ SQL ] INSERT INTO `tp_users` (`email` , `mobile`) VALUES ('123456@abc.com' , '123456')    [ RunTime:0.002529s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T14:10:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.073515s][吞吐率：13.60req/s] [内存消耗：1,971.30kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 23
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007198s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.006774s ]
+[ error ] [0]数据表字段不存在:[aaaaaaaaaaaa][D:\wamp\www\TP5.0\thinkphp\library\think\db\Builder.php:95]
+
+---------------------------------------------------------------
+[ 2016-10-15T14:25:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.060941s][吞吐率：16.41req/s] [内存消耗：1,885.02kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 29
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011997s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007549s ]
+[ sql ] [ SQL ] INSERT INTO `tp_users` (`email` , `mobile`) VALUES ('hello@world.com' , '123456789')    [ RunTime:0.000409s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T14:34:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.056370s][吞吐率：17.74req/s] [内存消耗：1,885.36kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 39
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001506s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007328s ]
+[ sql ] [ SQL ] INSERT INTO `tp_users` (`email` , `mobile`) VALUES ('hello@world.com' , '123456789')    [ RunTime:0.000338s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T14:34:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.049133s][吞吐率：20.35req/s] [内存消耗：1,885.57kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 39
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003266s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.006488s ]
+[ sql ] [ SQL ] INSERT INTO `tp_users` (`email` , `mobile`) VALUES ('hello@world.com' , '123456789')    [ RunTime:0.000295s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T14:34:46+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.058970s][吞吐率：16.96req/s] [内存消耗：1,885.57kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 39
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002133s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007213s ]
+[ sql ] [ SQL ] INSERT INTO `tp_users` (`email` , `mobile`) VALUES ('hello@world.com' , '123456789')    [ RunTime:0.000327s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T14:39:58+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.057591s][吞吐率：17.36req/s] [内存消耗：1,885.70kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 38
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007848s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007045s ]
+[ sql ] [ SQL ] INSERT INTO `tp_users` (`email` , `mobile`) VALUES ('zhanghsan@qq.com' , '123456789')    [ RunTime:0.000369s ]
+[ sql ] [ SQL ] INSERT INTO `tp_users` (`email` , `mobile`) VALUES ('lisi@qq.com' , '987654321')    [ RunTime:0.000263s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T14:50:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.069741s][吞吐率：14.34req/s] [内存消耗：1,901.44kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 44
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011566s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007984s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000574s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T14:50:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.040328s][吞吐率：24.80req/s] [内存消耗：1,901.49kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 44
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000839s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007748s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000716s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T14:50:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.047868s][吞吐率：20.89req/s] [内存消耗：1,901.49kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 44
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001254s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007263s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000558s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T14:53:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.061061s][吞吐率：16.38req/s] [内存消耗：1,901.46kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 50
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006231s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007128s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000586s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T14:54:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.061038s][吞吐率：16.38req/s] [内存消耗：1,901.35kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 50
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000849s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.006791s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 2 LIMIT 1    [ RunTime:0.000542s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:05:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.044778s][吞吐率：22.33req/s] [内存消耗：1,901.20kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 56
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004282s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.006786s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `mobile` = '123456' LIMIT 1    [ RunTime:0.001786s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:06:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.059482s][吞吐率：16.81req/s] [内存消耗：1,901.20kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 56
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005054s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007924s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `email` = 'lisi@qq.com' LIMIT 1    [ RunTime:0.000609s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:07:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.068846s][吞吐率：14.53req/s] [内存消耗：1,901.52kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 56
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000816s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007242s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `password` = '519475228fe35ad067744465c42a19b2' LIMIT 1    [ RunTime:0.000615s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:07:29+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.059032s][吞吐率：16.94req/s] [内存消耗：1,901.20kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 56
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008671s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.006615s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `mobile` = '123456' LIMIT 1    [ RunTime:0.001756s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:09:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.057458s][吞吐率：17.40req/s] [内存消耗：1,901.32kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 56
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011413s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007717s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000529s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:10:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.056580s][吞吐率：17.67req/s] [内存消耗：1,901.20kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 56
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005250s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007677s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `mobile` = '123456' LIMIT 1    [ RunTime:0.001804s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:13:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.071412s][吞吐率：14.00req/s] [内存消耗：1,902.27kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 62
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011959s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007319s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `mobile` = '13554784574'  AND `email` = '511482696@qq.com' LIMIT 1     [ RunTime:0.000927s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:15:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.064781s][吞吐率：15.44req/s] [内存消耗：1,972.08kb] [文件加载：43]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 63
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002614s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.006949s ]
+[ error ] [0]查询表达式错误:13554784574[D:\wamp\www\TP5.0\thinkphp\library\think\db\Builder.php:296]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:15:57+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.061135s][吞吐率：16.36req/s] [内存消耗：1,902.13kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 63
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005446s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007395s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `mobile` = '13554784574'  AND `email` = '511482696@qq.com' LIMIT 1     [ RunTime:0.000606s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:16:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.074808s][吞吐率：13.37req/s] [内存消耗：1,902.13kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 63
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013017s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007296s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `mobile` = '13554784574'  AND `email` = '511482696@qq.com' LIMIT 1     [ RunTime:0.000580s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:16:35+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.066062s][吞吐率：15.14req/s] [内存消耗：1,902.98kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 64
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010611s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007545s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `mobile` = '13554784574' LIMIT 1    [ RunTime:0.001943s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `mobile` = '13554784574'  AND `email` = '511482696@qq.com' LIMIT 1     [ RunTime:0.000650s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:20:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.058426s][吞吐率：17.12req/s] [内存消耗：1,880.63kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 73
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002928s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_level` [ RunTime:0.006521s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_level`  [ RunTime:0.000318s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:20:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.049865s][吞吐率：20.05req/s] [内存消耗：1,880.52kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 74
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008342s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_level` [ RunTime:0.006161s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_level`  [ RunTime:0.000299s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:20:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.049956s][吞吐率：20.02req/s] [内存消耗：1,880.39kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 73
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009983s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_level` [ RunTime:0.006758s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_level`  [ RunTime:0.000361s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:20:56+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.049667s][吞吐率：20.13req/s] [内存消耗：1,880.39kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 73
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005315s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_level` [ RunTime:0.006589s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_level`  [ RunTime:0.000280s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:21:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.048643s][吞吐率：20.56req/s] [内存消耗：1,880.30kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 73
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001206s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_level` [ RunTime:0.006873s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_level`  [ RunTime:0.000425s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:25:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.050675s][吞吐率：19.73req/s] [内存消耗：1,880.30kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 73
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001556s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_level` [ RunTime:0.007416s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_level`  [ RunTime:0.000335s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:25:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.058091s][吞吐率：17.21req/s] [内存消耗：1,880.94kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 74
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003521s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_level` [ RunTime:0.006821s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_level`  [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_level` WHERE  `level_id` = 4   [ RunTime:0.000335s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:26:43+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.074307s][吞吐率：13.46req/s] [内存消耗：1,882.24kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 75
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015088s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user_level` [ RunTime:0.006313s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_level`  [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_level` WHERE  `level_id` = 4   [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user_level` WHERE  `level_id` <= 3   [ RunTime:0.000297s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:32:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.045049s][吞吐率：22.20req/s] [内存消耗：1,961.66kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 83
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000812s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.006931s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000908s ]
+[ sql ] [ SQL ] UPDATE `tp_users`  SET `email`='helloworld@qwe.com',`mobile`='987654321'  WHERE  `user_id` = 1      [ RunTime:0.000463s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:32:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.062840s][吞吐率：15.91req/s] [内存消耗：1,977.18kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 84
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007335s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.006830s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000575s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:33:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.081472s][吞吐率：12.27req/s] [内存消耗：1,976.90kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 84
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015718s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007276s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000582s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:33:19+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.073748s][吞吐率：13.56req/s] [内存消耗：1,976.90kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 84
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005186s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.009253s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000884s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:33:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.076951s][吞吐率：13.00req/s] [内存消耗：1,961.33kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 84
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004561s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007862s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000759s ]
+[ sql ] [ SQL ] UPDATE `tp_users`  SET `email`='helloworld2@qwe.com'  WHERE  `user_id` = 1     [ RunTime:0.000639s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:33:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.064883s][吞吐率：15.41req/s] [内存消耗：1,976.90kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 84
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011810s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007369s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000706s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:35:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.085058s][吞吐率：11.76req/s] [内存消耗：2,003.30kb] [文件加载：45]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 84
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009440s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.006796s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000569s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'[D:\wamp\www\TP5.0\thinkphp\library\think\db\Connection.php:400]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:35:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.069348s][吞吐率：14.42req/s] [内存消耗：1,899.00kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 85
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008704s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.006638s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000656s ]
+[ sql ] [ SQL ] INSERT INTO `tp_users` (`user_id` , `email` , `password` , `sex` , `birthday` , `user_money` , `frozen_money` , `distribut_money` , `pay_points` , `address_id` , `reg_time` , `last_login` , `last_ip` , `qq` , `mobile` , `mobile_validated` , `oauth` , `openid` , `head_pic` , `province` , `city` , `district` , `email_validated` , `nickname` , `level` , `discount` , `total_amount` , `is_lock` , `is_distribut` , `first_leader` , `second_leader` , `third_leader` , `token`) VALUES (NULL , 'helloworld2@qwe.com' , '519475228fe35ad067744465c42a19b2' , 1 , 1472486400 , 2.00 , 0.00 , 0.00 , 0 , 1 , 1245048540 , 1245048540 , '0.0.0.0' , '511482696' , '987654321' , 1 , '' , NULL , '' , 5827 , 6542 , 6563 , 1 , 'hello' , 2 , 0.98 , 19008.20 , 0 , 0 , 0 , 0 , 0 , '')                                 [ RunTime:0.000583s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:36:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.061172s][吞吐率：16.35req/s] [内存消耗：1,899.00kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 85
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000806s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.007373s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000629s ]
+[ sql ] [ SQL ] INSERT INTO `tp_users` (`user_id` , `email` , `password` , `sex` , `birthday` , `user_money` , `frozen_money` , `distribut_money` , `pay_points` , `address_id` , `reg_time` , `last_login` , `last_ip` , `qq` , `mobile` , `mobile_validated` , `oauth` , `openid` , `head_pic` , `province` , `city` , `district` , `email_validated` , `nickname` , `level` , `discount` , `total_amount` , `is_lock` , `is_distribut` , `first_leader` , `second_leader` , `third_leader` , `token`) VALUES (NULL , 'helloworld2@qwe.com' , '519475228fe35ad067744465c42a19b2' , 1 , 1472486400 , 2.00 , 0.00 , 0.00 , 0 , 1 , 1245048540 , 1245048540 , '0.0.0.0' , '511482696' , '987654321' , 1 , '' , NULL , '' , 5827 , 6542 , 6563 , 1 , 'hello' , 2 , 0.98 , 19008.20 , 0 , 0 , 0 , 0 , 0 , '')                                 [ RunTime:0.000592s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:41:50+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.069780s][吞吐率：14.33req/s] [内存消耗：1,838.75kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 89
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009601s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.006470s ]
+[ error ] [0]缺少更新条件[D:\wamp\www\TP5.0\thinkphp\library\think\db\Query.php:1814]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:43:55+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.099808s][吞吐率：10.02req/s] [内存消耗：1,959.36kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 88
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010594s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.008691s ]
+[ sql ] [ SQL ] UPDATE `tp_users`  SET `mobile`='123456798',`email`='333333@3344444.com'  WHERE  `user_id` = 1      [ RunTime:0.000767s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:47:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.031318s][吞吐率：31.93req/s] [内存消耗：903.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected 'public' (T_PUBLIC)[D:\wamp\www\TP5.0\application\index\controller\Index.php:94]
+
+---------------------------------------------------------------
+[ 2016-10-15T15:48:02+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testmodel
+[ log ] www.tp5.com/index/index/testmodel [运行时间：0.056004s][吞吐率：17.86req/s] [内存消耗：1,962.23kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testmodel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s5293838336; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 12 - 93
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001371s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.006320s ]
+[ sql ] [ SQL ] UPDATE `tp_users`  SET `mobile`='123456798',`email`='333333@3344444.com'  WHERE  `user_id` = 1      [ RunTime:0.000358s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 2593 LIMIT 1    [ RunTime:0.000511s ]
+[ sql ] [ SQL ] DELETE FROM `tp_users`    WHERE  `user_id` = 2593    [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 2592   [ RunTime:0.000431s ]
+[ sql ] [ SQL ] DELETE FROM `tp_users`    WHERE  `user_id` = 2592    [ RunTime:0.000274s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T16:47:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index.php?s=/index/index/index
+[ log ] www.tp5.com/index.php?s=/index/index/index [运行时间：0.013000s][吞吐率：76.92req/s] [内存消耗：859.71kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\WWW\TP5.0\application\index\controller\Index.php 94 - 104
+
+  - Parameters [1] {
+    Parameter #0 [ <optional> $name = '张三' ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-15T16:47:33+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index
+[ log ] www.tp5.com/index/index/index [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：859.72kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=4130327552; pgv_si=s8294866944',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\WWW\TP5.0\application\index\controller\Index.php 94 - 104
+
+  - Parameters [1] {
+    Parameter #0 [ <optional> $name = '张三' ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-15T16:54:03+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/index
+[ log ] www.tp5.com/index/index/index [运行时间：0.015600s][吞吐率：64.10req/s] [内存消耗：860.47kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=4130327552; pgv_si=s8294866944',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\WWW\TP5.0\application\index\controller\Index.php 94 - 104
+
+  - Parameters [1] {
+    Parameter #0 [ <optional> $name = '张三' ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-15T16:54:15+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testModel
+[ log ] www.tp5.com/index/index/testModel [运行时间：0.031200s][吞吐率：32.05req/s] [内存消耗：1,440.02kb] [文件加载：39]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testModel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=4130327552; pgv_si=s8294866944',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\WWW\TP5.0\application\index\controller\Index.php 12 - 93
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\WWW\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\WWW\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)[D:\WWW\TP5.0\thinkphp\library\think\db\Connection.php:277]
+
+---------------------------------------------------------------
+[ 2016-10-15T16:54:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testModel
+[ log ] www.tp5.com/index/index/testModel [运行时间：0.078000s][吞吐率：12.82req/s] [内存消耗：1,538.61kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testModel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=4130327552; pgv_si=s8294866944; think_var=zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\WWW\TP5.0\application\index\controller\Index.php 12 - 93
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:dbname=tpshop1;host=192.168.0.200;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.031200s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T16:54:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testModel
+[ log ] www.tp5.com/index/index/testModel [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：1,538.58kb] [文件加载：37]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testModel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=4130327552; pgv_si=s8294866944; think_var=zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\WWW\TP5.0\application\index\controller\Index.php 12 - 93
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=tpshop1;host=192.168.0.200;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.020000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `user_id` = 1 LIMIT 1    [ RunTime:0.004000s ]
+
+---------------------------------------------------------------
+[ 2016-10-15T16:54:59+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/testModel
+[ log ] www.tp5.com/index/index/testModel [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：859.86kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'testModel',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'cookie' => 'pgv_pvi=4130327552; pgv_si=s8294866944; think_var=zh-cn',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0',
+  'host' => 'www.tp5.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method testModel ] {
+  @@ D:\WWW\TP5.0\application\index\controller\Index.php 12 - 93
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

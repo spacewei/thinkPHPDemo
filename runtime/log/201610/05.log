@@ -1,0 +1,4708 @@
+[ 2016-10-05T11:20:55+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.039419s][吞吐率：25.37req/s] [内存消耗：1,055.31kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 8 - 18
+
+  - Parameters [1] {
+    Parameter #0 [ <optional> $name = '张三' ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T11:22:23+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello
+[ log ] www.tp5.com/admin/index4/hello [运行时间：0.027845s][吞吐率：35.91req/s] [内存消耗：1,052.30kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 8 - 11
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T11:22:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello
+[ log ] www.tp5.com/admin/index4/hello [运行时间：0.018043s][吞吐率：55.42req/s] [内存消耗：1,052.48kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 8 - 11
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T11:23:19+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello
+[ log ] www.tp5.com/admin/index4/hello [运行时间：0.033537s][吞吐率：29.82req/s] [内存消耗：1,158.31kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 13
+}
+
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\admin\controller\Request' not found[D:\wamp\www\TP5.0\application\admin\controller\Index4.php:9]
+
+---------------------------------------------------------------
+[ 2016-10-05T11:23:26+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello
+[ log ] www.tp5.com/admin/index4/hello [运行时间：0.035663s][吞吐率：28.04req/s] [内存消耗：1,155.24kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 13
+}
+
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: name[D:\wamp\www\TP5.0\application\admin\controller\Index4.php:12]
+
+---------------------------------------------------------------
+[ 2016-10-05T11:23:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello/name/1111
+[ log ] www.tp5.com/admin/index4/hello/name/1111 [运行时间：0.024498s][吞吐率：40.82req/s] [内存消耗：1,155.57kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 13
+}
+
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: name[D:\wamp\www\TP5.0\application\admin\controller\Index4.php:12]
+
+---------------------------------------------------------------
+[ 2016-10-05T11:24:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello/name/1111
+[ log ] www.tp5.com/admin/index4/hello/name/1111 [运行时间：0.025022s][吞吐率：39.96req/s] [内存消耗：1,053.38kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 12
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T11:34:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello/name/1111
+[ log ] www.tp5.com/admin/index4/hello/name/1111 [运行时间：0.033836s][吞吐率：29.55req/s] [内存消耗：1,053.63kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 13
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T11:35:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello/name/1111
+[ log ] www.tp5.com/admin/index4/hello/name/1111 [运行时间：0.028748s][吞吐率：34.78req/s] [内存消耗：1,054.81kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 17
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T11:36:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello/name/1111
+[ log ] www.tp5.com/admin/index4/hello/name/1111 [运行时间：0.039029s][吞吐率：25.62req/s] [内存消耗：1,054.84kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 20
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T11:38:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello/name/1111
+[ log ] www.tp5.com/admin/index4/hello/name/1111 [运行时间：0.035323s][吞吐率：28.31req/s] [内存消耗：1,055.35kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 19
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T11:40:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello/name/1111
+[ log ] www.tp5.com/admin/index4/hello/name/1111 [运行时间：0.038980s][吞吐率：25.65req/s] [内存消耗：1,055.84kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 23
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T11:40:44+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello/name/1111
+[ log ] www.tp5.com/admin/index4/hello/name/1111 [运行时间：0.024842s][吞吐率：40.25req/s] [内存消耗：1,055.82kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 23
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T11:41:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello/name/1111
+[ log ] www.tp5.com/admin/index4/hello/name/1111 [运行时间：0.033680s][吞吐率：29.69req/s] [内存消耗：1,056.17kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 24
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T11:42:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello/name/1111
+[ log ] www.tp5.com/admin/index4/hello/name/1111 [运行时间：0.023671s][吞吐率：42.25req/s] [内存消耗：1,056.83kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 27
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T11:42:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello/name/1111
+[ log ] www.tp5.com/admin/index4/hello/name/1111 [运行时间：0.032129s][吞吐率：31.12req/s] [内存消耗：1,057.14kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 29
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T11:58:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello/name/1111/en_name
+[ log ] www.tp5.com/admin/index4/hello/name/1111/en_name [运行时间：0.028715s][吞吐率：34.83req/s] [内存消耗：1,057.46kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 31
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T11:58:57+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello/name/1111/en_name
+[ log ] www.tp5.com/admin/index4/hello/name/1111/en_name [运行时间：0.031953s][吞吐率：31.30req/s] [内存消耗：1,057.70kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 33
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T11:59:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello/name/1111/en_name/LUXI
+[ log ] www.tp5.com/admin/index4/hello/name/1111/en_name/LUXI [运行时间：0.024379s][吞吐率：41.02req/s] [内存消耗：1,057.84kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 33
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:01:22+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello/name/1111/en_name/LUXI
+[ log ] www.tp5.com/admin/index4/hello/name/1111/en_name/LUXI [运行时间：0.025924s][吞吐率：38.57req/s] [内存消耗：1,061.07kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 44
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:01:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.026208s][吞吐率：38.16req/s] [内存消耗：1,060.84kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 44
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:03:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.025970s][吞吐率：38.51req/s] [内存消耗：1,064.38kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 54
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:03:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.022143s][吞吐率：45.16req/s] [内存消耗：1,064.48kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 55
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:03:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.040227s][吞吐率：24.86req/s] [内存消耗：1,166.62kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 56
+}
+
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [4096]Object of class think\Request could not be converted to string[D:\wamp\www\TP5.0\application\admin\controller\Index4.php:33]
+
+---------------------------------------------------------------
+[ 2016-10-05T12:04:04+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.021483s][吞吐率：46.55req/s] [内存消耗：1,064.51kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 56
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:08:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.035271s][吞吐率：28.35req/s] [内存消耗：1,067.29kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 62
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:09:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.024109s][吞吐率：41.48req/s] [内存消耗：1,066.71kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 62
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:09:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.025196s][吞吐率：39.69req/s] [内存消耗：1,066.91kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 62
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:09:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.031099s][吞吐率：32.16req/s] [内存消耗：1,066.91kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 62
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:09:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.036202s][吞吐率：27.62req/s] [内存消耗：1,066.91kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 62
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:10:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.030925s][吞吐率：32.34req/s] [内存消耗：1,067.02kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 62
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:11:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.038240s][吞吐率：26.15req/s] [内存消耗：1,067.44kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 63
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:11:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.034513s][吞吐率：28.97req/s] [内存消耗：1,068.15kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 64
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:16:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.028018s][吞吐率：35.69req/s] [内存消耗：1,068.67kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 65
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:17:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.030855s][吞吐率：32.41req/s] [内存消耗：1,069.02kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 66
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:18:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.030627s][吞吐率：32.65req/s] [内存消耗：1,069.42kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 67
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:19:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.027135s][吞吐率：36.85req/s] [内存消耗：1,069.85kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 68
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:19:33+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.021675s][吞吐率：46.14req/s] [内存消耗：1,069.85kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 68
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:20:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.036066s][吞吐率：27.73req/s] [内存消耗：1,070.98kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:21:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.020771s][吞吐率：48.14req/s] [内存消耗：1,070.98kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:27:43+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.027505s][吞吐率：36.36req/s] [内存消耗：1,157.13kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 73 - 77
+}
+
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[D:\wamp\www\TP5.0\thinkphp\library\think\Response.php:293]
+
+---------------------------------------------------------------
+[ 2016-10-05T12:30:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.034746s][吞吐率：28.78req/s] [内存消耗：1,156.73kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 73 - 77
+}
+
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[D:\wamp\www\TP5.0\thinkphp\library\think\Response.php:293]
+
+---------------------------------------------------------------
+[ 2016-10-05T12:30:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.037765s][吞吐率：26.48req/s] [内存消耗：1,076.80kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 79
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:30:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.017465s][吞吐率：57.26req/s] [内存消耗：1,076.63kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 79
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:31:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.024780s][吞吐率：40.36req/s] [内存消耗：1,080.11kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 80
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:31:48+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.018050s][吞吐率：55.40req/s] [内存消耗：1,083.99kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 80
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:35:18+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.036805s][吞吐率：27.17req/s] [内存消耗：1,163.32kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 81
+}
+
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\wamp\www\TP5.0\public/../application/admin\view\index4\index.html[D:\wamp\www\TP5.0\thinkphp\library\think\view\driver\Think.php:78]
+
+---------------------------------------------------------------
+[ 2016-10-05T12:35:36+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.031313s][吞吐率：31.94req/s] [内存消耗：1,172.24kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 81
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: name[D:\wamp\www\TP5.0\runtime\temp\2679c67b37f1c65e6b43963a6714866b.php:4]
+
+---------------------------------------------------------------
+[ 2016-10-05T12:35:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.045318s][吞吐率：22.07req/s] [内存消耗：1,309.48kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 81
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\public/../application/admin\view\index\index2.html [ array (
+) ]
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: name[D:\wamp\www\TP5.0\runtime\temp\a1535bbe5618dcb8e7f048d232324fb7.php:4]
+
+---------------------------------------------------------------
+[ 2016-10-05T12:36:17+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.022423s][吞吐率：44.60req/s] [内存消耗：1,072.95kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 82
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\public/../application/admin\view\index\index2.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:40:08+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello3.html?name=1111&en_name=LUXI [运行时间：0.048385s][吞吐率：20.67req/s] [内存消耗：1,266.68kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 84 - 88
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:40:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html
+[ log ] www.tp5.com/admin/index4/hello.html [运行时间：0.018322s][吞吐率：54.58req/s] [内存消耗：1,071.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/admin/index4/hello3.html?name=1111&en_name=LUXI',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:40:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index3/hello.html
+[ log ] www.tp5.com/admin/index3/hello.html [运行时间：0.031484s][吞吐率：31.76req/s] [内存消耗：1,145.05kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index3',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:40:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/hello3.html
+[ log ] www.tp5.com/admin/index/hello3.html [运行时间：0.023845s][吞吐率：41.94req/s] [内存消耗：1,146.16kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:40:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3.html
+[ log ] www.tp5.com/admin/index4/hello3.html [运行时间：0.027303s][吞吐率：36.63req/s] [内存消耗：1,125.64kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 84 - 88
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:40:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html
+[ log ] www.tp5.com/admin/index4/hello.html [运行时间：0.046966s][吞吐率：21.29req/s] [内存消耗：1,071.52kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/admin/index4/hello3.html',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:40:59+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3.html
+[ log ] www.tp5.com/admin/index4/hello3.html [运行时间：0.019338s][吞吐率：51.71req/s] [内存消耗：1,125.64kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 84 - 88
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:41:02+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html
+[ log ] www.tp5.com/admin/index4/hello.html [运行时间：0.037751s][吞吐率：26.49req/s] [内存消耗：1,071.52kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/admin/index4/hello3.html',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:41:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index3/hello.html
+[ log ] www.tp5.com/admin/index3/hello.html [运行时间：0.030738s][吞吐率：32.53req/s] [内存消耗：1,145.05kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index3',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:41:51+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/hello3.html
+[ log ] www.tp5.com/admin/index/hello3.html [运行时间：0.021450s][吞吐率：46.62req/s] [内存消耗：1,146.16kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:41:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3.html
+[ log ] www.tp5.com/admin/index4/hello3.html [运行时间：0.019567s][吞吐率：51.11req/s] [内存消耗：1,076.87kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 85 - 89
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:41:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.029735s][吞吐率：33.63req/s] [内存消耗：1,071.95kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/admin/index4/hello3.html',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:42:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3.html
+[ log ] www.tp5.com/admin/index4/hello3.html [运行时间：0.021763s][吞吐率：45.95req/s] [内存消耗：1,125.55kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 85 - 89
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:42:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html
+[ log ] www.tp5.com/admin/index4/hello.html [运行时间：0.029936s][吞吐率：33.40req/s] [内存消耗：1,071.49kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/admin/index4/hello3.html',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:42:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3.html
+[ log ] www.tp5.com/admin/index4/hello3.html [运行时间：0.044305s][吞吐率：22.57req/s] [内存消耗：1,125.98kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 85 - 89
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:42:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html
+[ log ] www.tp5.com/admin/index4/hello.html [运行时间：0.025832s][吞吐率：38.71req/s] [内存消耗：1,071.88kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/admin/index4/hello3.html',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:43:00+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3.html
+[ log ] www.tp5.com/admin/index4/hello3.html [运行时间：0.026875s][吞吐率：37.21req/s] [内存消耗：1,076.85kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 85 - 89
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:43:03+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.026269s][吞吐率：38.07req/s] [内存消耗：1,071.95kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/admin/index4/hello3.html',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:44:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.030933s][吞吐率：32.33req/s] [内存消耗：1,072.05kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/admin/index4/hello3.html',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:45:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello3.html?name=1111&en_name=LUXI [运行时间：0.027477s][吞吐率：36.39req/s] [内存消耗：1,088.95kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 85 - 91
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:45:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello3.html?name=1111&en_name=LUXI [运行时间：0.019719s][吞吐率：50.71req/s] [内存消耗：1,088.95kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 85 - 91
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:56:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.019345s][吞吐率：51.69req/s] [内存消耗：1,072.73kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:57:01+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.025510s][吞吐率：39.20req/s] [内存消耗：1,078.35kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 82
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:57:05+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.029330s][吞吐率：34.09req/s] [内存消耗：1,078.45kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 82
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:57:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.024551s][吞吐率：40.73req/s] [内存消耗：1,078.45kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 82
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:57:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.028375s][吞吐率：35.24req/s] [内存消耗：1,078.35kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 82
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:57:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.017943s][吞吐率：55.73req/s] [内存消耗：1,078.45kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 82
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:57:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.028116s][吞吐率：35.57req/s] [内存消耗：1,078.35kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 82
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:57:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.029098s][吞吐率：34.37req/s] [内存消耗：1,078.53kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 82
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:57:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.017743s][吞吐率：56.36req/s] [内存消耗：1,078.28kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 82
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:58:11+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.040988s][吞吐率：24.40req/s] [内存消耗：1,078.34kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 82
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:58:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.051490s][吞吐率：19.42req/s] [内存消耗：1,078.34kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 82
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:58:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.037648s][吞吐率：26.56req/s] [内存消耗：1,078.34kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 82
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:58:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.019016s][吞吐率：52.59req/s] [内存消耗：1,078.45kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 82
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:58:34+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.024410s][吞吐率：40.97req/s] [内存消耗：1,078.38kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 82
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:58:40+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.024858s][吞吐率：40.23req/s] [内存消耗：1,078.45kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 82
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:58:54+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello2.html?name=1111&en_name=LUXI [运行时间：0.021568s][吞吐率：46.37req/s] [内存消耗：1,078.73kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 83
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T12:59:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.023581s][吞吐率：42.41req/s] [内存消耗：1,073.37kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T14:44:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.024371s][吞吐率：41.03req/s] [内存消耗：1,073.24kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T14:44:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.020340s][吞吐率：49.16req/s] [内存消耗：1,073.24kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T14:46:16+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.023300s][吞吐率：42.92req/s] [内存消耗：1,073.36kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T14:48:56+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.030449s][吞吐率：32.84req/s] [内存消耗：1,073.38kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T14:55:31+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.021698s][吞吐率：46.09req/s] [内存消耗：1,073.38kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T14:55:50+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name= [运行时间：0.018133s][吞吐率：55.15req/s] [内存消耗：1,073.25kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => '',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T14:55:58+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111 [运行时间：0.022344s][吞吐率：44.75req/s] [内存消耗：1,073.12kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T14:57:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.022317s][吞吐率：44.81req/s] [内存消耗：1,073.26kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:03:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.023290s][吞吐率：42.94req/s] [内存消耗：1,073.01kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:03:20+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.018314s][吞吐率：54.60req/s] [内存消耗：1,073.38kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:20:07+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html
+[ log ] www.tp5.com/admin/index4/hello.html [运行时间：0.030384s][吞吐率：32.91req/s] [内存消耗：1,072.33kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:20:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2
+[ log ] www.tp5.com/admin/index4/hello2 [运行时间：0.023640s][吞吐率：42.30req/s] [内存消耗：1,158.23kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 83
+}
+
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [0]variable type error： array[D:\wamp\www\TP5.0\thinkphp\library\think\Response.php:293]
+
+---------------------------------------------------------------
+[ 2016-10-05T15:20:47+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2
+[ log ] www.tp5.com/admin/index4/hello2 [运行时间：0.021311s][吞吐率：46.92req/s] [内存消耗：1,077.98kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 83
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:21:09+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2
+[ log ] www.tp5.com/admin/index4/hello2 [运行时间：0.017390s][吞吐率：57.50req/s] [内存消耗：1,077.77kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'connection' => 'keep-alive',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146 Safari/537.36',
+  'accept-encoding' => 'gzip,deflate,sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 83
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:21:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2
+[ log ] www.tp5.com/admin/index4/hello2 [运行时间：0.030308s][吞吐率：32.99req/s] [内存消耗：1,077.98kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 83
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:21:49+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2
+[ log ] www.tp5.com/admin/index4/hello2 [运行时间：0.018823s][吞吐率：53.13req/s] [内存消耗：1,078.08kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 83
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:22:12+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2
+[ log ] www.tp5.com/admin/index4/hello2 [运行时间：0.022120s][吞吐率：45.21req/s] [内存消耗：1,085.34kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 83
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:22:53+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2
+[ log ] www.tp5.com/admin/index4/hello2 [运行时间：0.021654s][吞吐率：46.18req/s] [内存消耗：1,073.26kb] [文件加载：29]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 83
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\public/../application/admin\view\index\index2.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:23:30+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello2
+[ log ] www.tp5.com/admin/index4/hello2 [运行时间：0.024047s][吞吐率：41.58req/s] [内存消耗：1,070.72kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello2',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello2 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 74 - 84
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:24:24+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3
+[ log ] www.tp5.com/admin/index4/hello3 [运行时间：0.025634s][吞吐率：39.01req/s] [内存消耗：1,125.53kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 87 - 93
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:24:27+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html
+[ log ] www.tp5.com/admin/index4/hello.html [运行时间：0.022158s][吞吐率：45.13req/s] [内存消耗：1,071.52kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/admin/index4/hello3',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:24:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3.html
+[ log ] www.tp5.com/admin/index4/hello3.html [运行时间：0.020889s][吞吐率：47.87req/s] [内存消耗：1,125.55kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 87 - 93
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:24:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html
+[ log ] www.tp5.com/admin/index4/hello.html [运行时间：0.024593s][吞吐率：40.66req/s] [内存消耗：1,071.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/admin/index4/hello3.html',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:25:37+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello4
+[ log ] www.tp5.com/admin/index4/hello4 [运行时间：0.023966s][吞吐率：41.73req/s] [内存消耗：1,162.30kb] [文件加载：34]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello4',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:25:41+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3.html
+[ log ] www.tp5.com/admin/index4/hello3.html [运行时间：0.023501s][吞吐率：42.55req/s] [内存消耗：1,266.44kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 87 - 93
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:25:45+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html
+[ log ] www.tp5.com/admin/index4/hello.html [运行时间：0.022989s][吞吐率：43.50req/s] [内存消耗：1,071.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/admin/index4/hello3.html',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:26:39+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3.html
+[ log ] www.tp5.com/admin/index4/hello3.html [运行时间：0.026534s][吞吐率：37.69req/s] [内存消耗：1,266.42kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 87 - 93
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:26:42+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html
+[ log ] www.tp5.com/admin/index4/hello.html [运行时间：0.024030s][吞吐率：41.61req/s] [内存消耗：1,071.55kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/admin/index4/hello3.html',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:27:35+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3.html
+[ log ] www.tp5.com/admin/index4/hello3.html [运行时间：0.023197s][吞吐率：43.11req/s] [内存消耗：1,217.44kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 87 - 93
+}
+
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:27:38+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello.html?name=1111&en_name=LUXI
+[ log ] www.tp5.com/admin/index4/hello.html?name=1111&en_name=LUXI [运行时间：0.024861s][吞吐率：40.22req/s] [内存消耗：1,071.96kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.tp5.com/admin/index4/hello3.html',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'name' => '1111',
+  'en_name' => 'LUXI',
+)
+[ info ] [ RUN ] Method [ <user> public method hello ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 7 - 72
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:29:29+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3.html
+[ log ] www.tp5.com/admin/index4/hello3.html [运行时间：0.020837s][吞吐率：47.99req/s] [内存消耗：1,088.60kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 87 - 93
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T15:29:46+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index4/hello3.html
+[ log ] www.tp5.com/admin/index4/hello3.html [运行时间：0.033277s][吞吐率：30.05req/s] [内存消耗：1,088.60kb] [文件加载：30]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index4',
+    2 => 'hello3',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; think_var=zh-cn',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello3 ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index4.php 87 - 93
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T18:01:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.044147s][吞吐率：22.65req/s] [内存消耗：1,167.35kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Db' not found[D:\wamp\www\TP5.0\application\index\controller\Index.php:65]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:02:06+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.040049s][吞吐率：24.97req/s] [内存消耗：1,251.81kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001476s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] insert into tp_data (id, name ,status) values (1, "1111",1) [ RunTime:0.000375s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:03:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.044488s][吞吐率：22.48req/s] [内存消耗：1,251.86kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009770s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] update tp_data set name = "framework" where id = 1  [ RunTime:0.006297s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:04:32+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.035270s][吞吐率：28.35req/s] [内存消耗：1,254.30kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009861s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] select * from tp_data where id = 5 [ RunTime:0.000489s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:04:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.027680s][吞吐率：36.13req/s] [内存消耗：1,254.45kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001258s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] select * from tp_data where id = 1 [ RunTime:0.000534s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:05:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.028695s][吞吐率：34.85req/s] [内存消耗：1,254.37kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000933s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] select * from tp_data where id = 1 [ RunTime:0.000492s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:06:20+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.031371s][吞吐率：31.88req/s] [内存消耗：1,257.98kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000800s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] show tables from tpshop1 [ RunTime:0.002778s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:10:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.032335s][吞吐率：30.93req/s] [内存消耗：1,240.27kb] [文件加载：31]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-05T18:14:28+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.026298s][吞吐率：38.03req/s] [内存消耗：1,255.98kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000884s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] insert into tp_data (id, name ,status) values ('3', 'thinkphp', '1') [ RunTime:0.000379s ]
+[ sql ] [ SQL ] select * from tp_data where id = '3' [ RunTime:0.000276s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:16:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.042960s][吞吐率：23.28req/s] [内存消耗：1,256.19kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009864s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] insert into tp_data (id, name , status) values ('4', 'thinkphp', '1')    [ RunTime:0.000491s ]
+[ sql ] [ SQL ] select * from tp_data where id='4'  [ RunTime:0.000433s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:17:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.034773s][吞吐率：28.76req/s] [内存消耗：1,255.98kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000825s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] '1'thinkphp'5'nsert into tp_data (id, name , status) values (:id, :name, :status) [ RunTime:0.000470s ]
+[ sql ] [ SQL ] select * from tp_data where id='5'  [ RunTime:0.000329s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:17:39+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.054179s][吞吐率：18.46req/s] [内存消耗：1,359.25kb] [文件加载：40]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010270s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '5' for key 'PRIMARY'[D:\wamp\www\TP5.0\thinkphp\library\think\db\Connection.php:400]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:23:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.050324s][吞吐率：19.87req/s] [内存消耗：1,670.16kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000931s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.006850s ]
+[ sql ] [ SQL ] INSERT INTO `tp_data` (`id` , `name` , `status`) VALUES (6 , 'thinkphp' , 1)     [ RunTime:0.000372s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:24:45+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.051039s][吞吐率：19.59req/s] [内存消耗：1,670.97kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009912s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.009058s ]
+[ sql ] [ SQL ] UPDATE `tp_data`  SET `name`='hello'  WHERE  `id` = 2     [ RunTime:0.000908s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:26:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.050034s][吞吐率：19.99req/s] [内存消耗：1,669.80kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009856s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.007221s ]
+[ sql ] [ SQL ] INSERT INTO `tp_data` (`id` , `name`) VALUES (7 , '77777777777777')    [ RunTime:0.000355s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:28:23+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.053042s][吞吐率：18.85req/s] [内存消耗：1,674.92kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010134s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.006924s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `tp_data` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 10    [ RunTime:0.000718s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:29:48+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.041129s][吞吐率：24.31req/s] [内存消耗：1,674.92kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 157
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001903s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.006734s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `tp_data` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 10    [ RunTime:0.000395s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:34:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.059513s][吞吐率：16.80req/s] [内存消耗：1,745.78kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 155
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010286s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.007880s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 1    [ RunTime:0.000398s ]
+[ sql ] [ SQL ] INSERT INTO `tp_data` (`id` , `name` , `status`) VALUES (8 , 'thinkphp' , 1)     [ RunTime:0.000247s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:35:04+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.052166s][吞吐率：19.17req/s] [内存消耗：1,745.78kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 155
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000824s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.006899s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 1    [ RunTime:0.000395s ]
+[ sql ] [ SQL ] INSERT INTO `tp_data` (`id` , `name` , `status`) VALUES (9 , 'thinkphp' , 1)     [ RunTime:0.000281s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:35:30+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.050964s][吞吐率：19.62req/s] [内存消耗：1,851.06kb] [文件加载：46]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 155
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000793s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.007308s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 2    [ RunTime:0.000443s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '9' for key 'PRIMARY'[D:\wamp\www\TP5.0\thinkphp\library\think\db\Connection.php:400]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:38:00+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.042993s][吞吐率：23.26req/s] [内存消耗：1,764.33kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 157
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001148s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.006432s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 2    [ RunTime:0.000557s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:38:42+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.052750s][吞吐率：18.96req/s] [内存消耗：1,746.08kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 157
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001239s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.007215s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 2    [ RunTime:0.000511s ]
+[ sql ] [ SQL ] INSERT INTO `tp_data` (`id` , `name` , `status`) VALUES (10 , 'thinkphp' , 1)     [ RunTime:0.000302s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:39:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.060461s][吞吐率：16.54req/s] [内存消耗：1,745.75kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 157
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009659s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.007036s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 2    [ RunTime:0.000408s ]
+[ sql ] [ SQL ] INSERT INTO `tp_data` (`id` , `name` , `status`) VALUES (11 , 'thinkphp' , 1)     [ RunTime:0.000243s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:40:11+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.057945s][吞吐率：17.26req/s] [内存消耗：1,746.17kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 157
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010511s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.006667s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 2    [ RunTime:0.000410s ]
+[ sql ] [ SQL ] INSERT INTO `tp_data` (`id` , `name` , `status`) VALUES (11 , 'thinkphp' , 1)     [ RunTime:0.000321s ]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:40:21+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.072838s][吞吐率：13.73req/s] [内存消耗：1,851.37kb] [文件加载：46]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 157
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010096s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.007812s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 2    [ RunTime:0.000496s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '11' for key 'PRIMARY'[D:\wamp\www\TP5.0\thinkphp\library\think\db\Connection.php:400]
+
+---------------------------------------------------------------
+[ 2016-10-05T18:40:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.060301s][吞吐率：16.58req/s] [内存消耗：1,764.33kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 157
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010526s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.006402s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 2    [ RunTime:0.000441s ]
+
+---------------------------------------------------------------

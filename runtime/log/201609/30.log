@@ -1,0 +1,77 @@
+[ 2016-09-30T19:20:28+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.035152s][吞吐率：28.45req/s] [内存消耗：1,052.78kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 7 - 17
+
+  - Parameters [1] {
+    Parameter #0 [ <optional> $name = '张三' ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-09-30T19:28:52+08:00 ] 127.0.0.1 127.0.0.1 GET /admin/index/index/aa/11/bb/22/cc/333
+[ log ] www.tp5.com/admin/index/index/aa/11/bb/22/cc/333 [运行时间：0.041651s][吞吐率：24.01req/s] [内存消耗：1,693.04kb] [文件加载：36]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s6525277184',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'aa' => '11',
+  'bb' => '22',
+  'cc' => '333',
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\wamp\www\TP5.0\application\admin\controller\Index.php 8 - 17
+
+  - Parameters [1] {
+    Parameter #0 [ <optional> $name = '张三' ]
+  }
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\TP5.0\public/../application/admin\view\index\index.html [ array (
+  0 => 'data',
+  1 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001122s ] mysql:dbname=tpshop;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.005446s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` LIMIT 1   [ RunTime:0.000617s ]
+
+---------------------------------------------------------------

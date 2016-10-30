@@ -1,0 +1,663 @@
+[ 2016-10-06T11:55:33+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.034572s][吞吐率：28.93req/s] [内存消耗：1,055.44kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 8 - 18
+
+  - Parameters [1] {
+    Parameter #0 [ <optional> $name = '张三' ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-06T14:57:46+08:00 ] 127.0.0.1 127.0.0.1 GET /
+[ log ] www.tp5.com/ [运行时间：0.042910s][吞吐率：23.30req/s] [内存消耗：1,062.09kb] [文件加载：28]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method index ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 8 - 18
+
+  - Parameters [1] {
+    Parameter #0 [ <optional> $name = '张三' ]
+  }
+}
+
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2016-10-06T14:59:13+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.037877s][吞吐率：26.40req/s] [内存消耗：1,167.82kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 157
+}
+
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\controller\Db' not found[D:\wamp\www\TP5.0\application\index\controller\Index.php:65]
+
+---------------------------------------------------------------
+[ 2016-10-06T14:59:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.056547s][吞吐率：17.68req/s] [内存消耗：1,251.81kb] [文件加载：32]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 157
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010042s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] insert into tp_data (id, name ,status) values (2, "22222",1) [ RunTime:0.002286s ]
+
+---------------------------------------------------------------
+[ 2016-10-06T15:01:31+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.065857s][吞吐率：15.18req/s] [内存消耗：1,670.97kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 157
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009701s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.005381s ]
+[ sql ] [ SQL ] UPDATE `tp_data`  SET `name`='hello'  WHERE  `id` = 2     [ RunTime:0.000891s ]
+
+---------------------------------------------------------------
+[ 2016-10-06T15:02:25+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.066552s][吞吐率：15.03req/s] [内存消耗：1,674.61kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 157
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010489s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.005642s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `tp_data` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 10    [ RunTime:0.000507s ]
+
+---------------------------------------------------------------
+[ 2016-10-06T15:03:54+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.053182s][吞吐率：18.80req/s] [内存消耗：1,674.61kb] [文件加载：35]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010017s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.004585s ]
+[ sql ] [ SQL ] SELECT `id`,`name` FROM `tp_data` WHERE  `status` = 1 ORDER BY `id`  desc LIMIT 10    [ RunTime:0.000363s ]
+
+---------------------------------------------------------------
+[ 2016-10-06T15:06:52+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.067193s][吞吐率：14.88req/s] [内存消耗：1,745.95kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010215s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.005663s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 1    [ RunTime:0.000455s ]
+[ sql ] [ SQL ] INSERT INTO `tp_data` (`id` , `name` , `status`) VALUES (4 , 'thinkphp' , 1)     [ RunTime:0.000289s ]
+
+---------------------------------------------------------------
+[ 2016-10-06T15:07:22+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.085213s][吞吐率：11.74req/s] [内存消耗：1,851.32kb] [文件加载：46]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 153
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009922s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.006033s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  (  id=10 )  AND `id` = 1    [ RunTime:0.000412s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4' for key 'PRIMARY'[D:\wamp\www\TP5.0\thinkphp\library\think\db\Connection.php:400]
+
+---------------------------------------------------------------
+[ 2016-10-06T15:07:36+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.061037s][吞吐率：16.38req/s] [内存消耗：1,851.37kb] [文件加载：46]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 153
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010235s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.004009s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 1    [ RunTime:0.000384s ]
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '4' for key 'PRIMARY'[D:\wamp\www\TP5.0\thinkphp\library\think\db\Connection.php:400]
+
+---------------------------------------------------------------
+[ 2016-10-06T15:08:05+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.061129s][吞吐率：16.36req/s] [内存消耗：1,745.78kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000820s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.005055s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 1    [ RunTime:0.000438s ]
+[ sql ] [ SQL ] INSERT INTO `tp_data` (`id` , `name` , `status`) VALUES (5 , 'thinkphp' , 1)     [ RunTime:0.000349s ]
+
+---------------------------------------------------------------
+[ 2016-10-06T15:08:24+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.059792s][吞吐率：16.72req/s] [内存消耗：1,624.38kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LANG ] D:\wamp\www\TP5.0\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009858s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ error ] [42S02]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'tpshop1.tp_data4' doesn't exist[D:\wamp\www\TP5.0\thinkphp\library\think\db\connector\Mysql.php:60]
+
+---------------------------------------------------------------
+[ 2016-10-06T15:08:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.068997s][吞吐率：14.49req/s] [内存消耗：1,745.78kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000938s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.006722s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 1    [ RunTime:0.000546s ]
+[ sql ] [ SQL ] INSERT INTO `tp_data` (`id` , `name` , `status`) VALUES (6 , 'thinkphp' , 1)     [ RunTime:0.000369s ]
+
+---------------------------------------------------------------
+[ 2016-10-06T15:09:40+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.058747s][吞吐率：17.02req/s] [内存消耗：1,746.02kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010477s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.004426s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 1    [ RunTime:0.000424s ]
+[ sql ] [ SQL ] INSERT INTO `tp_data` (`id` , `name` , `status`) VALUES (7 , 'thinkphp' , 1)     [ RunTime:0.000248s ]
+
+---------------------------------------------------------------
+[ 2016-10-06T15:09:53+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.070885s][吞吐率：14.11req/s] [内存消耗：1,764.05kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009928s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.004993s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 1    [ RunTime:0.000418s ]
+
+---------------------------------------------------------------
+[ 2016-10-06T15:10:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.072546s][吞吐率：13.78req/s] [内存消耗：1,745.73kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009985s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.005823s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 1    [ RunTime:0.000446s ]
+[ sql ] [ SQL ] INSERT INTO `tp_data` (`id` , `name` , `status`) VALUES (8 , 'thinkphp' , 1)     [ RunTime:0.000365s ]
+
+---------------------------------------------------------------
+[ 2016-10-06T15:10:26+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.051972s][吞吐率：19.24req/s] [内存消耗：1,537.66kb] [文件加载：33]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009511s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+
+---------------------------------------------------------------
+[ 2016-10-06T15:10:49+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.065970s][吞吐率：15.16req/s] [内存消耗：1,764.27kb] [文件加载：41]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009759s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.004493s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 2    [ RunTime:0.000449s ]
+
+---------------------------------------------------------------
+[ 2016-10-06T15:11:07+08:00 ] 127.0.0.1 127.0.0.1 GET /index/index/hello5
+[ log ] www.tp5.com/index/index/hello5 [运行时间：0.054302s][吞吐率：18.42req/s] [内存消耗：1,746.02kb] [文件加载：38]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'hello5',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp5.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'pgv_pvi=9797559296; pgv_si=s462837760; think_var=zh-cn',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] Method [ <user> public method hello5 ] {
+  @@ D:\wamp\www\TP5.0\application\index\controller\Index.php 57 - 152
+}
+
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001003s ] mysql:dbname=tpshop1;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_data` [ RunTime:0.004172s ]
+[ sql ] [ SQL ] DELETE FROM `tp_data`    WHERE  `id` = 2    [ RunTime:0.000408s ]
+[ sql ] [ SQL ] INSERT INTO `tp_data` (`id` , `name` , `status`) VALUES (8 , 'thinkphp' , 1)     [ RunTime:0.000248s ]
+
+---------------------------------------------------------------
